@@ -80,7 +80,10 @@ Laravel\Paynamics\Paygate\Laravel\ServiceProvider::class
 'Paygate' => Laravel\Paynamics\Paygate\Laravel\Facades\Paygate::class
 ```
 
-3. Execute `php artisan vendor:publish --provider="\Laravel\Paynamics\Paygate\Laravel\ServiceProvider"`.
+3. Execute 
+```
+php artisan vendor:publish --provider="\Laravel\Paynamics\Paygate\Laravel\ServiceProvider"
+```
 
 4. Add the following to your `.env` file
 ```
@@ -89,4 +92,5 @@ PAYGATE_MERCHANT_KEY=<YOUR MERCHANT KEY>
 PAYGATE_SANDBOX=<TRUE|FALSE>
 PAYGATE_SANDBOX_URL=<PAYNAMICS_TESTING_URL>
 PAYGATE_PRODUCTION_URL=<PAYNAMICS_PRODUCTION_URL>
+PAYNAMICS_SERVER_IP_ADDRESS=<PAYNAMICS_SERVER_IP_ADDRESS>
 ```

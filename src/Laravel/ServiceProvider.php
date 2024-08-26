@@ -13,8 +13,8 @@ class ServiceProvider extends LaravelServiceProvider
     public function boot(): void
     {
         $this->publishes([
-            realpath(__DIR__.'/../../../config/paygate.php') => config_path('paygate.php'),
-        ]);
+            realpath(__DIR__.'/../../config/paygate.php') => config_path('paygate.php'),
+        ], 'config');
     }
 
     /**
