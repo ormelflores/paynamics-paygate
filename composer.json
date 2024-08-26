@@ -1,11 +1,11 @@
 {
-    "name": "paynamics/paygate",
+    "name": "laravel-paynamics/paygate",
     "description": "Laravel 10 and 11 service provider for Paynamics Paygate SDK",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Paynamics\\Paygate\\": "src/"
+            "Laravel\\Paynamics\\Paygate\\": "src/"
         }
     },
     "authors": [
@@ -22,7 +22,7 @@
         "frameworks": ["Laravel 10", "Laravel 11"],
         "laravel": {
             "providers": [
-                "Paynamics\\Paygate\\Laravel\\ServiceProvider"
+                "Laravel\\Paynamics\\Paygate\\Laravel\\ServiceProvider"
             ]
         }
     },

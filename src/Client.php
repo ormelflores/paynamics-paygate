@@ -1,10 +1,10 @@
 <?php
 
-namespace Paynamics\Paygate;
+namespace Laravel\Paynamics\Paygate;
 
 use Exception;
-use Paynamics\Paygate\Constants\Secure3d;
-use Paynamics\Paygate\Constants\TransactionType;
+use Laravel\Paynamics\Paygate\Constants\Secure3d;
+use Laravel\Paynamics\Paygate\Constants\TransactionType;
 
 class Client implements ClientInterface
 {

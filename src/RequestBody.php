@@ -1,6 +1,6 @@
 <?php
 
-namespace Paynamics\Paygate;
+namespace Laravel\Paynamics\Paygate;
 
 use Paynamics\Paygate\Mixins\AttributesToXml;
 use Paynamics\Paygate\Mixins\SignatureGenerator;

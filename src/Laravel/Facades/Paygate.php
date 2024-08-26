@@ -1,6 +1,6 @@
 <?php
 
-namespace Paynamics\Paygate\Laravel\Facades;
+namespace Laravel\Paynamics\Paygate\Laravel\Facades;
 
 class Paygate extends \Illuminate\Support\Facades\Facade
 {

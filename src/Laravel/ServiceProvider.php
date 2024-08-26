@@ -1,6 +1,6 @@
 <?php
 
-namespace Paynamics\Paygate\Laravel;
+namespace Laravel\Paynamics\Paygate\Laravel;
 
 use Illuminate\Support\ServiceProvider as LaravelServiceProvider;
 use Paynamics\Paygate\Client;

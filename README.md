@@ -3,7 +3,7 @@ A Laravel PHP library for Paynamics PayGate API
 
 ## Installation
 ```
-composer require paynamics/paygate
+composer require laravel-paynamics/paygate
 ```
 
 ## Usage
@@ -11,7 +11,7 @@ composer require paynamics/paygate
 ##### Initialize Client
 Vanilla PHP:
 ```
-$client = new \Paynamics\Paygate\Client([
+$client = new \Laravel\Paynamics\Paygate\Client([
     'merchant_id'     => 'YOUR MERCHANT ID,
     'merchant_key'    => 'YOUR MERCHANT KEY',
     'sandbox'         => (true|false),
@@ -23,7 +23,7 @@ $client = new \Paynamics\Paygate\Client([
 ##### Create Request Body 
 Please refer to the API Documentation for the request body parameters.
 ```
-$requestBody = new \Paynamics\Paygate\RequestBody([
+$requestBody = new \Laravel\Paynamics\Paygate\RequestBody([
     'request_id' => substr(uniqid(), 1, 13),
     'fname' => 'Paynamics',
     'lname' => 'Buyer',
@@ -72,15 +72,15 @@ $client->responsivePayment($requestBody);
 #### Laravel Support
 1. Add Provider to `config/app.php`.
 ```
-Paynamics\Paygate\Laravel\ServiceProvider::class
+Laravel\Paynamics\Paygate\Laravel\ServiceProvider::class
 ```
 
 2. Add Facade to `config/app.php`.
 ```
-'Paygate' => Paynamics\Paygate\Laravel\Facades\Paygate::class
+'Paygate' => Laravel\Paynamics\Paygate\Laravel\Facades\Paygate::class
 ```
 
-3. Execute `php artisan vendor:publish --provider="\Paynamics\Paygate\Laravel\ServiceProvider"`.
+3. Execute `php artisan vendor:publish --provider="\Laravel\Paynamics\Paygate\Laravel\ServiceProvider"`.
 
 4. Add the following to your `.env` file
 ```

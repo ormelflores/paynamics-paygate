@@ -1,6 +1,6 @@
 <?php
 
-namespace Paynamics\Paygate\Mixins;
+namespace Laravel\Paynamics\Paygate\Mixins;
 
 use SimpleXMLElement;
 

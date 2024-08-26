@@ -1,6 +1,6 @@
 <?php
 
-namespace Paynamics\Paygate;
+namespace Laravel\Paynamics\Paygate;
 
 class Item implements ItemInterface
 {

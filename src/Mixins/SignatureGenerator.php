@@ -1,8 +1,8 @@
 <?php
 
-namespace Paynamics\Paygate\Mixins;
+namespace Laravel\Paynamics\Paygate\Mixins;
 
-use Paynamics\Paygate\ClientInterface;
+use Laravel\Paynamics\Paygate\ClientInterface;
 
 trait SignatureGenerator
 {

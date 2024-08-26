@@ -1,6 +1,6 @@
 <?php
 
-namespace Paynamics\Paygate\Constants;
+namespace Laravel\Paynamics\Paygate\Constants;
 
 class Secure3d
 {

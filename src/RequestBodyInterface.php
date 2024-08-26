@@ -1,6 +1,6 @@
 <?php
 
-namespace Paynamics\Paygate\Src;
+namespace Laravel\Paynamics\Paygate\Src;
 
 interface RequestBodyInterface
 {
