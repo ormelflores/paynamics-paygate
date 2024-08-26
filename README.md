@@ -82,7 +82,7 @@ Laravel\Paynamics\Paygate\Laravel\ServiceProvider::class
 
 3. Execute 
 ```
-php artisan vendor:publish --provider="\Laravel\Paynamics\Paygate\Laravel\ServiceProvider"
+php artisan vendor:publish --tag=config
 ```
 
 4. Add the following to your `.env` file
